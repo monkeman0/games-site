@@ -1,3 +1,4 @@
 git init
 git add .
 git commit -am "skbidi"
+git push origin main
