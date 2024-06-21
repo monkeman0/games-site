@@ -32,3 +32,12 @@ https://github.com/(username)/(name of repository).git
 example: https://github.com/monkeman0/coursera-test.git
 
 after pasting another press of enter key is required.
+
+to start a browser-synced server, run these two commands:
+cd C:\coding things\games-site
+
+2nd part(after space) is directory/path
+
+run this: browser-sync start --server --directory --files "*"
+then click on the main html file, and thats it!
+
