@@ -3,4 +3,32 @@ git add .
 git commit -am "skbidi commit"
 git push origin main
 
-copy and paste above code into VScode terminal!!!
+copy and paste above code into VScode terminal to commit new stuff!!!(only for projects that have already been linked to github)
+
+for new projects, once folder is created for that project, run these commands after also making github repository 
+without any files or anything in it, and name of repository must be same as folder name.
+ALL COMMANDS LISTED HERE GO INTO COMMAND PROMPT, NOT VSCODE TERMINAL!!!
+
+cd (path to folder, NOT including C:\Users\espen) example: cd C:\coding things\coursera-test
+copy and paste:
+echo "# coursera-test" >> README.md
+git init
+git add README.md
+
+coursera-test should be the name of the folder, which should match the name of the github repository name.
+
+then input:
+git add .
+
+copy and paste:
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/monkeman0/coursera-test.git
+git push -u origin main
+
+link should be link of the provided link on page, always like this:
+https://github.com/(username)/(name of repository).git 
+example: https://github.com/monkeman0/coursera-test.git
+
+after pasting another press of enter key is required.
