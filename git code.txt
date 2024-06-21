@@ -1,6 +1,6 @@
 git init
 git add .
-git commit -am "skbidi"
+git commit -am "skbidi commit"
 git push origin main
 
 copy and paste above code into VScode terminal!!!
