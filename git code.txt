@@ -2,3 +2,5 @@ git init
 git add .
 git commit -am "skbidi"
 git push origin main
+
+copy and paste above code into VScode terminal!!!
